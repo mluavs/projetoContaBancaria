@@ -10,14 +10,12 @@ _[M1S04] Ex 1 - Criação do projeto [Conta bancária]_
 
 _[M1S04] Ex 3 - Criação do formulário de cadastro - Interface visual [Conta bancária]_
 
-Nessa tarefa deve ser criada **apenas a parte visual** do formulário de cadastro.
-
-[x] Criar um formulário contendo os seguintes campos:
-[x] Nome
-[x] CPF
-[x] Celular
-[x] Senha
-[x] Confirmação da senha
-[x] Botão para enviar o formulário
-[x] Botão para limpar o formulário
+[x] Criar um formulário contendo os seguintes campos: <br>
+[x] Nome <br>
+[x] CPF <br>
+[x] Celular <br>
+[x] Senha <br>
+[x] Confirmação da senha <br>
+[x] Botão para enviar o formulário <br>
+[x] Botão para limpar o formulário 
 
