@@ -16,17 +16,40 @@
         </div>
             <img src="./assets/forestBank.png" alt="Forest Gump">
     </header>
-    <div>
-        <form action="" class="formulario">
-            Nome <input type="text"> 
-            CPF <input type="number" name="CPF" id="CPF">
-            Celular <input type="number" name="celular" id="celular">
-            Senha <input type="password" name="senha" id="senha">
-            Confirmação de senha <input type="password">
-            <button class="botoes">Envia Formulário</button>
-            <button class="botoes">Limpa Formulário</button>
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <div>
+                <label for="Nome:">Nome:</label>
+                <input id="nome" required placeholder="Digite seu nome" type="text"> 
+            </div>
+
+            <div>
+                <label for="CPF">CPF:</label>
+                <input type="number" required id="cpf" placeholder="Digite seu CPF (apenas números)">
+            </div>
+
+            <div>
+                <label for="Celular">Celular</label>
+                <input type="number" required name="celular" id="celular" placeholder="Digite seu celular">
+            </div>
+
+            <div>
+                <label for="Senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha">
+            </div>
+            
+            <div>
+                <label for="confirmacaoSenha">Confirmação de Senha</label>
+                <input type="password" id="confirmacaoSenha" placeholder="Confirme sua senha">
+            </div>
+
+            <div>
+                <button class="botoes">Envia Formulário</button>
+                <button class="botoes">Limpa Formulário</button>
+            </div>
+            
         </form>
-    </div>
+    </main>
     <footer>
         <h2>Forest Bank.INC</h2>
         <p>Alameda Sem Fim - corra para chegar e chegue longe</p>
