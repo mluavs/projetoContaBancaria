@@ -20,11 +20,15 @@ _[M1S04] Ex 1 - Criação do projeto [Conta bancária]_
 [x] Criar o repositório no github <br>
 [x] Enviar essas primeiras configurações para o repositório remoto criado (commit, push)
 
+__________________________
+
 _[M1S04] Ex 2 - Criação do layout básico da página [Conta bancária]_
 > Nessa tarefa deve ser criado o layout básico da página, fique livre para criar como achar melhor, escolha as cores para compor o layout e divirta-se!
 
 [X] Implementar um header com a logo e nome da aplicação e o que mais achar necessário <br>
 [x] Implementar um footer com os dados da empresa e o que mais achar interessante
+
+__________________________
 
 _[M1S04] Ex 3 - Criação do formulário de cadastro - Interface visual [Conta bancária]_
 >Nessa tarefa deve ser criada apenas a parte visual do formulário de cadastro.
@@ -37,6 +41,8 @@ _[M1S04] Ex 3 - Criação do formulário de cadastro - Interface visual [Conta b
 [x] Confirmação da senha <br>
 [x] Botão para enviar o formulário <br>
 [x] Botão para limpar o formulário
+
+__________________________
 
 _[M1S04] Ex 4 - Criação do formulário de cadastro - Funcionalidades [Conta bancária]_
 >Nessa tarefa devem ser adicionadas funcionalidades ao formulário criado na tarefa anterior.
@@ -61,6 +67,8 @@ saldo: 0, <br>
 
 [x] Se der erro exiba uma mensagem de erro ao usuário. (Pode ser utilizado alert ou criar um elemento html na tela)
 
+__________________________
+
 _[M1S04] Ex 5 - Operações - Interface visual [Conta bancária]_
 > Nessa tarefa deve ser criada apenas a intervace visual para as operações e desabilitar o campo de valor quando a operação for consulta saldo
 
@@ -74,6 +82,8 @@ _[M1S04] Ex 5 - Operações - Interface visual [Conta bancária]_
 
 [x] Se a opção selecionada for consultar saldo deve ser desabilitado o campo de valor
 
+__________________________
+
 _[M1S04] Ex 6 - Operações - Eventos [Conta bancária]_
 > Nessa tarefa será adicionado os eventos ao formulário criado.
 
@@ -83,6 +93,8 @@ _[M1S04] Ex 6 - Operações - Eventos [Conta bancária]_
 - Verificar qual é a operação selecionada
 Chamar a função correspondente à operação
 
+__________________________
+
 _[M1S04] Ex 7 - Operações - Consulta Saldo [Conta bancária]_
 > Nessa tarefa será iniciado o desenvolvimento das operações
 
@@ -90,6 +102,8 @@ _[M1S04] Ex 7 - Operações - Consulta Saldo [Conta bancária]_
 - Deve receber como parâmetro a conta
 - Deve implementar a funcionalidade para obter o saldo
 - Deve exibir uma mensagem com o saldo atual da conta (elemento html ou alert)
+
+__________________________
 
 _[M1S04] Ex 8 - Operações - Depósito [Conta bancária]_
 > Nessa tarefa será implementado a função de depósito
@@ -99,6 +113,8 @@ _[M1S04] Ex 8 - Operações - Depósito [Conta bancária]_
 - Deve ser validado se o valor recebido é maior que zero
 - Deve implementar a funcionalidade para incrementar o saldo da conta
 - Deve exibir uma mensagem com a informação de depósito efetuado com sucesso e o novo saldo atual da conta (elemento html ou alert)
+
+__________________________
 
 _[M1S04] Ex 9 - Operações - Saque [Conta bancária]_
 > Nessa tarefa será implementada a funcionalidade de saque
